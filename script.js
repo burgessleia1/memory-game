@@ -19,13 +19,14 @@ function flipCard() {
   }
 
   // second click
-  secondCard = this;
+secondCard = this;
 
   checkForMatch();
 }
 
 function checkForMatch() {
-  let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
+  let isMatch = firstCard.dataset.framework === 
+     secondCard.dataset.framework;
 
   isMatch ? disableCards() : unflipCards();
 }
