@@ -5,6 +5,7 @@ let lockBoard = false;
 let firstCard, secondCard;
 
 function flipCard() {
+  console.log('I was clicked');
   if (lockBoard) return;
   if (this === firstCard) return;
 
